@@ -9,6 +9,7 @@
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="bg-red-100">
@@ -267,42 +268,44 @@
         </div>
       </section>
 
-      <!-- Features Section  -->
-      <section class="grid md:grid-cols-2 gap-5 container px-10 mx-auto my-20">
-        <!-- single card section  -->
-        <div class="flex items-center p-3 shadow-2xl rounded-2xl space-x-4">
-          <img class="h-14" src="icons/image 12.png" alt="" />
-          <div class="space-y-2">
-            <h1 class="text-2xl">Find the Perfect Fit</h1>
-            <p class="w-4/5">
-              Everybody is different, which is why we offer styles for every
-              body.
-            </p>
+      <section
+        class="grid md:grid-cols-2 gap-5 container px-10 mx-auto my-20 custom"
+      >
+        <div class="space-y-6">
+          <div class="flex items-center p-3 shadow-2xl rounded-2xl space-x-4">
+            <img class="h-14" src="icons/image 12.png" alt="" />
+            <div class="space-y-2">
+              <h1 class="text-2xl">Find the Perfect Fit</h1>
+              <p class="w-4/5">
+                Everybody is different, which is why we offer styles for every
+                body.
+              </p>
+            </div>
+          </div>
+          <!-- single card section  -->
+          <div class="flex items-center p-3 shadow-2xl rounded-2xl space-x-4">
+            <img class="h-14" src="icons/image 13.png" alt="" />
+            <div class="space-y-2">
+              <h1 class="text-2xl">Free Exchanges</h1>
+              <p class="w-4/5">
+                One of the many reasons you can shop with peace of mind.
+              </p>
+            </div>
+          </div>
+          <!-- single card section  -->
+          <div class="flex items-center p-3 shadow-2xl rounded-2xl space-x-4">
+            <img class="h-14" src="icons/image 14.png" alt="" />
+            <div class="space-y-2">
+              <h1 class="text-2xl">Contact Our Seller</h1>
+              <p class="w-4/5">
+                They are here to help you. That's quite literally what we pay
+                them for.
+              </p>
+            </div>
           </div>
         </div>
-        <!-- single card section  -->
-        <div class="row-span-3 order-first">
+        <div class="row-span-3 md\:order-last sm\:order-first">
           <img src="images/shopping.png" alt="" />
-        </div>
-        <div class="flex items-center p-3 shadow-2xl rounded-2xl space-x-4">
-          <img class="h-14" src="icons/image 13.png" alt="" />
-          <div class="space-y-2">
-            <h1 class="text-2xl">Free Exchanges</h1>
-            <p class="w-4/5">
-              One of the many reasons you can shop with peace of mind.
-            </p>
-          </div>
-        </div>
-        <!-- single card section  -->
-        <div class="flex items-center p-3 shadow-2xl rounded-2xl space-x-4">
-          <img class="h-14" src="icons/image 14.png" alt="" />
-          <div class="space-y-2">
-            <h1 class="text-2xl">Contact Our Seller</h1>
-            <p class="w-4/5">
-              They are here to help you. That's quite literally what we pay them
-              for.
-            </p>
-          </div>
         </div>
       </section>
     </main>
